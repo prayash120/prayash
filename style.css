@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	background-color: #f1f1f1;
+}
+header{
+	background-color: green;
+	color: white;
+	padding:20px;
+	font-family:"Comic Sans Ms";
+	text-align: center
+}
+ nav{
+ 	overflow: hidden;
+ 	background-color: #333;
+ }
+ nav a{
+ 	float: right;
+ 	color: white;
+ 	padding: 10px;
+ 	text-decoration: none;
+ }
+ nav a:hover{
+ 	background-color: black;
+ 	color: white;
+ }
+ footer{
+ 	clear: both;
+ 	background-color: green;
+ 	padding: 20px;
+ 	text-align: center;
+ 	color: white;
+ 	font-family: "Comic Sans Ms";
+ }
+div.gallery{
+	margin: 5px;
+	border: 5px solid black;
+	float: left;
+}
+div.gallery img{
+	width: 100%;
+	height: auto;
+}
+div.gallery:hover{
+	border: 5px solid red;
+}
+input[type=text],select,textarea{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type=submit]{
+	background-color: green;
+	color: white;
+	padding: 12px 20px;
+	cursor: pointer;
+	border: none;
+	margin: 5px;
+}
